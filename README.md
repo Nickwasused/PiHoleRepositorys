@@ -8,5 +8,6 @@ The original list.
 # regex-sort.list
 The orginal list, but sorted together.
 
-Note: You will have to restart the pihole service after updating these lists.<br>
+# Note
+You will have to restart the pihole service after updating these lists.<br>
 ```sudo service pihole-ftl restart```
