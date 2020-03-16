@@ -9,13 +9,13 @@ The original list.
 The orginal list, but sorted together.
 
 # Usgae
-Download the file:
-```https://raw.githubusercontent.com/Nickwasused/PiHoleRepositorys/master/regex-sort.list -O regex.list```
-or
-```wget https://raw.githubusercontent.com/Nickwasused/PiHoleRepositorys/master/regex.list```
-Move the file to the Pi-hole installation:
-```sudo mv regex.list /etc/pihole```
-Fix regex.list permission:
-```sudo chown pihole:www-data /etc/pihole/regex.list```
-Restart the Pi-hole service:
-```sudo service pihole-FTL restart```
+Download the file:<br>
+```https://raw.githubusercontent.com/Nickwasused/PiHoleRepositorys/master/regex-sort.list -O regex.list```<br>
+or<br>
+```wget https://raw.githubusercontent.com/Nickwasused/PiHoleRepositorys/master/regex.list```<br>
+Move the file to the Pi-hole installation:<br>
+```sudo mv regex.list /etc/pihole```<br>
+Fix regex.list permission:<br>
+```sudo chown pihole:www-data /etc/pihole/regex.list```<br>
+Restart the Pi-hole service:<br>
+```sudo service pihole-FTL restart```<br>
