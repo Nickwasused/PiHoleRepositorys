@@ -8,6 +8,14 @@ The original list.
 # regex-sort.list
 The orginal list, but sorted together.
 
-# Note
-You will have to restart the pihole service after updating these lists.<br>
-```sudo service pihole-ftl restart```
+# Usgae
+Download the file:
+```https://raw.githubusercontent.com/Nickwasused/PiHoleRepositorys/master/regex-sort.list -O regex.list```
+or
+```wget https://raw.githubusercontent.com/Nickwasused/PiHoleRepositorys/master/regex.list```
+Move the file to the Pi-hole installation:
+```sudo mv regex.list /etc/pihole```
+Fix regex.list permission:
+```sudo chown pihole:www-data /etc/pihole/regex.list```
+Restart the Pi-hole service:
+```sudo service pihole-FTL restart```
