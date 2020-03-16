@@ -1,6 +1,6 @@
 # PiHoleRepositorys
 Repository for PiHoles
-These files are used to update your block/whitelists inside your PiHole. The files are located at /etc/pihole/
+These files are used to update your block/whitelists inside your PiHole. The files are located at /etc/pihole/<br>
 
-Note: You will have to restart the pihole service after updating these lists. 
-[code]sudo service pihole-ftl restart[/code]
+Note: You will have to restart the pihole service after updating these lists.<br>
+```sudo service pihole-ftl restart```
