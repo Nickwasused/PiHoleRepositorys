@@ -8,14 +8,5 @@ The original list.
 # regex-sort.list
 The orginal list, but sorted together.
 
-# Usgae
-Download the file:<br>
-```https://raw.githubusercontent.com/Nickwasused/PiHoleRepositorys/master/regex-sort.list -O regex.list```<br>
-or<br>
-```wget https://raw.githubusercontent.com/Nickwasused/PiHoleRepositorys/master/regex.list```<br>
-Move the file to the Pi-hole installation:<br>
-```sudo mv regex.list /etc/pihole```<br>
-Fix regex.list permission:<br>
-```sudo chown pihole:www-data /etc/pihole/regex.list```<br>
-Restart the Pi-hole service:<br>
-```sudo service pihole-FTL restart```<br>
+# ⛔ Disclaimer ⛔
+These pages and the entire project is in no way affiliated with Pi-hole, which you can find on https://pi-hole.net/ I am only offering blocklists/whitelists you can import to your Pi-hole.
